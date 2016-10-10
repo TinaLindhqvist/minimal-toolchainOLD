@@ -2,13 +2,13 @@
 name: "Minimal Toolchain"
 description: "This toolchain will be used in System Test.\n Click CREATE to start."
 version: 1.0
-image: 
+image: https://github.com/TinaLindhqvist/minimal-toolchain/blob/master/minimaltoolchain.jpg
 
 # Github repos
 sample-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "test-{{name}}"
+    repo_name: "{{name}}"
     repo_url: https://github.com/TinaLindhqvist/App4UITest.git
     type: clone
     has_issues: false
