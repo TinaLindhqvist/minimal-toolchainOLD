@@ -2,6 +2,7 @@
 name: "Minimal Toolchain Template"
 description: "This toolchain will be used in System Test.\n Click CREATE to start."
 version: 0.2
+image: data:image/png;base64,$file(minimaltoolchain.png,base64)
 
 # Github repos
 sample-repo:
