@@ -2,7 +2,6 @@
 name: "Minimal Toolchain"
 description: "This toolchain will be used in System Test.\n Click CREATE to start."
 version: 1.0
-image: https://github.com/TinaLindhqvist/minimal-toolchain/blob/master/minimaltoolchain.jpg
 
 # Github repos
 sample-repo:
